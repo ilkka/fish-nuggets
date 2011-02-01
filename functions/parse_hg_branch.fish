@@ -1,6 +1,6 @@
 function parse_hg_branch
   # make sure mercurial is installed
-  if not which hg
+  if not which hg > /dev/null
     return
   end
 

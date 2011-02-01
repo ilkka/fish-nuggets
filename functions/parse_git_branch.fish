@@ -1,6 +1,6 @@
 function parse_git_branch
   # make sure git is installed
-  if not which git
+  if not which git > /dev/null
     return
   end
 
